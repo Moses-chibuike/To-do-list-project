@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 import { check } from "./mark.js";
 
 const InnerTodo = document.querySelector(".todo-inner");

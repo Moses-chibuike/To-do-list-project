@@ -1,5 +1,3 @@
-/* eslint-disable quotes */
-
 export const check = (todo, id) => {
   const findTodo = todo.find((item) => id === item.index);
   findTodo.completed = !findTodo.completed;

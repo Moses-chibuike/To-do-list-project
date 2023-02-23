@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 import "./style.css";
 import display from "./todo.js";
 import { clearCompleted } from "./mark.js";
