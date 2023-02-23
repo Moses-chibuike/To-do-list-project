@@ -15,7 +15,6 @@ enterBtn.addEventListener("click", () => {
   display.addTodo();
 });
 
-
 editTodoForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const id = Number(editTodoFormInput.getAttribute("id"));
