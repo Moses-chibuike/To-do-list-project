@@ -21,9 +21,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Awesome books] <a name="about-project"></a>
+# 📖 [To Do list] <a name="about-project"></a>
 
-> A website which display list of books
+> A website which manages Tasks
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -39,6 +39,7 @@ HTML, CSS, Javascript
 
 - **to do list structure**
 - **set up with webpack**
+- **Add and Remove tasks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +99,7 @@ You can deploy this project using: Netlify, and some other hosting service: <a h
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Add and remove feature for the items**
+- [ ] **Add more Add features to make it reponsive and beautiful**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
