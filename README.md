@@ -37,7 +37,7 @@ HTML, CSS, Javascript
 
 > Describe between 1-3 key features of the application.
 
-- **to do list structure**
+- **mark and clear completed tasks**
 - **set up with webpack**
 - **Add and Remove tasks**
 

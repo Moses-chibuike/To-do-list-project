@@ -1,25 +1,22 @@
-/* eslint-disable quotes */
-import "./style.css";
-import display from "./todo.js";
+import './style.css';
+import display from './todo.js';
+import { clearCompleted } from './mark.js';
 
-const editTodoForm = document.querySelector("#todo-form");
-const enterBtn = document.querySelector(".enter-btn");
-const editTodoFormInput = document.querySelector(".todo-edit input");
+const enterBtn = document.querySelector('.enter-btn');
+const clearCheck = document.querySelector('.clear');
 
-window.addEventListener("DOMContentLoaded", () => {
+clearCheck.addEventListener('click', () => {
+  const task = display.getTodo();
+  const todo = clearCompleted(task);
+  localStorage.setItem('todo', JSON.stringify(todo));
+  display.loadTodo(todo);
+});
+
+window.addEventListener('DOMContentLoaded', () => {
   const task = display.getTodo();
   display.loadTodo(task);
 });
 
-enterBtn.addEventListener("click", () => {
+enterBtn.addEventListener('click', () => {
   display.addTodo();
-});
-
-editTodoForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const id = Number(editTodoFormInput.getAttribute("id"));
-  display.updateTaskInput(editTodoFormInput.value, id);
-  editTodoFormInput.value = "";
-  document.querySelector(".type-task").style.display = "block";
-  editTodoForm.style.display = "none";
 });
