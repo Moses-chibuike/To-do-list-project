@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PeteUgwu/Webpack-setup.git"
+    "url": "git+https://github.com/Moses-chibuike/Webpack-setup.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PeteUgwu/Webpack-setup/issues"
+    "url": "https://github.com/Moses-chibuike/Webpack-setup/issues"
   },
-  "homepage": "https://github.com/PeteUgwu/Webpack-setup#readme",
+  "homepage": "https://github.com/Moses-chibuike/Webpack-setup#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",

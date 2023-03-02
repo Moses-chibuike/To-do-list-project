@@ -92,6 +92,12 @@ You can deploy this project using: Netlify, and some other hosting service: <a h
 - Twitter: [Ezechukwuchibu2](https://twitter.com/Ezechukwuchibu2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezechukwu-chibuike/)
 
+👤 **ilyass**
+
+- GitHub: [@ilyassatlassi](https://github.com/ilyassatlassi)
+- Twitter: [@ilyassatlassi](https://twitter.com/ilyass_atlassi)
+- LinkedIn: [@ilyassatlassi](https://www.linkedin.com/in/www.linkedin.com/in/ilyassatlassi)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
