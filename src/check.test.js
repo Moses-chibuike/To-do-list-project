@@ -3,7 +3,7 @@
 import Display from './todo.js';
 import { check, clearCompleted } from './check.js';
 
-describe('Edit task', () => {
+describe('Edit task and updated', () => {
   beforeEach(() => {
     localStorage.clear();
     jest.clearAllMocks();
@@ -44,7 +44,7 @@ describe('Edit task', () => {
   });
 });
 
-describe('completed status', () => {
+describe('completed status and verified', () => {
   beforeEach(() => {
     localStorage.clear();
     jest.clearAllMocks();
@@ -89,7 +89,7 @@ describe('completed status', () => {
   });
 });
 
-describe('Clear completed', () => {
+describe('Clear completed and selected items', () => {
   beforeEach(() => {
     localStorage.clear();
     jest.clearAllMocks();
