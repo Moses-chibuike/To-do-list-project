@@ -39,7 +39,7 @@ HTML, CSS, Javascript
 
 - **mark and clear completed tasks**
 - **set up with webpack**
-- **Add and Remove tasks**
+- **Add and Remove Testing By jest**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
